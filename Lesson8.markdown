@@ -51,9 +51,11 @@ UIView.transition(
         }
 ```
 
-
-
 参数含义
 - with：动画作用的对象。
 - duration：动画时长。
-- 
+- options: 选项。
+- animations：动画开始的回调。
+- completion：动画结束的回调。
+### Dynamic Animation
+
